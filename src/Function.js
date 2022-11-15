@@ -162,7 +162,7 @@ validatePath(argsTerminal[2]);//me permite leer la ruta que le paso posicion de 
 
 
 
-
+NO ME SIRVE MI GIT
 
 
 
