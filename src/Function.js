@@ -33,7 +33,7 @@ const validatePath = (myPath) => {
         return ruta = myPath
     } else {
         console.log(path.resolve(myPath));
-        console.log("era realtiva");
+        // console.log("era realtiva");
         return ruta = path.resolve(myPath);
     }
 }
@@ -57,7 +57,7 @@ const validateTypeFileOrDirectory = (file) => {
         if (extencion == 'md') {
             console.log('El archivo es md');
             fs.readFile(nameFile, 'utf8', (err, data) => {
-                console.log(data );
+                // console.log(data );
                 let text = data;
                 getLinks(text);
             })
@@ -162,7 +162,7 @@ validatePath(argsTerminal[2]);//me permite leer la ruta que le paso posicion de 
 
 
 
-NO ME SIRVE MI GIT
+
 
 
 
