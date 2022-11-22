@@ -27,24 +27,3 @@ const mdLinks = (path, options = { validate: true }) => {
   mdLinks(process.argv[2]).then((response) => {
     console.log(response);
   })
-// console.log(consultLink('https://www.google.com'),11);
-// consultLink('https://www.google.com').then((data)=>{console.log(data)})
-// consultLink('https://www.google.com').then(console.log)
-  // return new Promise((resolve, reject) => {
-  //   const validatePath = validateTypeFileOrDirectory(path);
-  //   if (options.validate == true) {
-  //     getLinks(validatePath)
-  //       .then(Response => resolve(Response))
-  //       console.log("probandoooo", mdLinks)
-  //   }else {
-  //   reject("no funciona tu codigo");
-  //   getLinks(validatePath)
-  //     .then(Response => getLinks(Response))
-  //     .then(answerValidate => resolve => (answerValidate))
-  //   }
-  // })
-  // console.log("Enter mdlinks")
-
-// mdLinks().then(rest => console.log(rest).catch(err => console.log(err)))
-// mdLinks();
-// module.exports = () => { mdLinks };
